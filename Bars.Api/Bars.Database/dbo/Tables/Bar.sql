@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Bar] (
-    [BarId]       INT            IDENTITY (1010, 10) NOT NULL,
+    [BarId]       INT            IDENTITY (1, 1) NOT NULL,
     [DistrictId]  INT            NOT NULL,
     [Name]        NVARCHAR (50)  NOT NULL,
     [Description] NVARCHAR (MAX) NULL,

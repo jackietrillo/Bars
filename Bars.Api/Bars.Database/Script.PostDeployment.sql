@@ -1,4 +1,5 @@
 ﻿
+/*
 DELETE FROM [dbo].[BarTypeBar]
 GO
 DELETE FROM [dbo].[TopList]
@@ -17,12 +18,24 @@ DELETE FROM [dbo].[MusicType]
 GO
 DELETE FROM [User]
 GO
+DELETE FROM [Role]
+GO
+*/
 
 SET IDENTITY_INSERT [dbo].[User] ON
 
 INSERT INTO [User] (UserId, UserName, Email) VALUES (1000, 'SYSTEM', '' );
 
 SET IDENTITY_INSERT [dbo].[User] OFF
+GO
+
+SET IDENTITY_INSERT [dbo].[Role] ON
+
+INSERT INTO [Role] (RoleId, RoleName) VALUES (1, 'User');
+INSERT INTO [Role] (RoleId, RoleName) VALUES (2, 'Owner');
+INSERT INTO [Role] (RoleId, RoleName) VALUES (3, 'Admin');
+
+SET IDENTITY_INSERT [dbo].[Role] OFF
 GO
 
 DECLARE @DISTRICTBERNALHEIGHTS INT = 1
