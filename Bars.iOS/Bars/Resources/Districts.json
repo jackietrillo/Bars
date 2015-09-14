@@ -1,0 +1,55 @@
+ [
+  {
+  "itemId": 1,
+  "districtId": 1,
+  "name": "Bernal Heights",
+  },
+  {
+  "itemId": 2,
+  "districtId": 2,
+  "name": "Castro",
+  "bars": []
+  },
+  {
+  "itemId": 3,
+  "districtId": 3,
+  "name": "Financial District",
+  "bars": []
+  },
+  {
+  "itemId": 7,
+  "districtId": 7,
+  "name": "Mission",
+  "bars": []
+  },
+  {
+  "itemId": 8,
+  "districtId": 8,
+  "name": "Pacific Heights",
+  "bars": []
+  },
+  {
+  "itemId": 9,
+  "districtId": 9,
+  "name": "Noe Valley",
+  "bars": []
+  },
+  {
+  "itemId": 11,
+  "districtId": 11,
+  "name": "Richmond",
+  "bars": []
+  },
+  {
+  "itemId": 12,
+  "districtId": 12,
+  "name": "SoMa",
+  "bars": []
+  },
+  {
+  "itemId": 15,
+  "districtId": 15,
+  "name": "Tenderloin",
+  "bars": []
+  }
+  ]

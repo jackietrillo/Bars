@@ -1,0 +1,58 @@
+[
+ {
+     "itemId": 1,
+     "section": 0,
+     "name": "Search",
+     "controller": "SearchViewController",
+     "imageUrl": "Icon-Search",
+     "statusFlag": 1
+  },
+  {
+    "itemId": 2,
+    "section": 0,
+    "name": "Browse",
+    "controller": "BarBrowseViewController",
+    "imageUrl": "Icon-Browse",
+    "statusFlag": 1
+  },
+  {
+    "itemId": 3,
+    "section": 0,
+    "name": "Near Me",
+    "controller": "NearMeViewController",
+    "imageUrl": "Icon-Map",
+    "statusFlag": 1
+  },
+  {
+    "itemId": 7,
+    "section": 0,
+    "name": "Events",
+    "controller": "EventsViewController",
+    "imageUrl": "Icon-Calendar",
+    "statusFlag": 0
+ },
+ {
+    "itemId": 8,
+    "section": 0,
+    "name": "Parties",
+    "controller": "ParyViewController",
+    "imageUrl": "Icon-Parties",
+    "statusFlag": 0
+  },
+  {
+    "itemId": 9,
+    "section": 1,
+    "name": "Favorites",
+    "controller": "",
+    "imageUrl": "Icon-Star",
+    "statusFlag": 1
+ },
+ {
+    "itemId": 10,
+    "section": 2,
+    "name": "Settings",
+    "controller": "SettingsViewController",
+    "imageUrl": "Icon-Settings",
+    "statusFlag": 0
+ }
+]

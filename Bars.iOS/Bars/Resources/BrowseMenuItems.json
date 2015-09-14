@@ -1,0 +1,34 @@
+ [
+  {
+  "itemId": 1,
+  "section": 0,
+  "name": "Top List",
+  "controller": "TopListViewController",
+  "imageUrl": "Icon-TopList",
+  "statusFlag": 1
+  },
+  {
+  "itemId": 2,
+  "section": 0,
+  "name": "Parties",
+  "controller": "PartyViewController",
+  "imageUrl": "Icon-Parties",
+  "statusFlag": 1
+  },
+  {
+  "itemId": 3,
+  "section": 0,
+  "name": "By Neighborhood",
+  "controller": "DistrictViewController",
+  "imageUrl": "Icon-Map",
+  "statusFlag": 1
+  },
+  {
+  "itemId": 4,
+  "section": 0,
+  "name": "By Music",
+  "controller": "MusicTypeViewController",
+  "imageUrl": "Icon-Music",
+  "statusFlag": 1
+  }
+  ]
